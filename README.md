@@ -1,4 +1,4 @@
-Project Title: Automated Preview Generator
+Automated Preview Generator
 Description
 This project provides an automated tool for generating previews of your projects in Maya, ensuring consistent camera naming conventions and storage paths. It simplifies the preview generation process by clearing selections, matching render settings, and managing file overwrites, making it efficient and user-friendly for CFX artists.
 
@@ -13,28 +13,18 @@ Planned Additions: Switch from the selected camera to the perspective camera.
 
 ## Installation
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/yourusername/automated-preview-generator.git
 Navigate to the project directory:
-bash
-Copy code
 cd automated-preview-generator
 Install the required dependencies:
-bash
-Copy code
 pip install -r requirements.txt
 
 ## Usage
 Open your project in Maya.
 Ensure your project filename follows the specified naming convention: Projectname_Shotnumber_Startframe_Endframe.
 Run the script to generate the preview:
-bash
-Copy code
 python generate_preview.py
 Specify the storage path as required. For example:
-bash
-Copy code
 G:\Praxis_Work_SRO\Publish\Shots\S01\cfx\ep01\SRO_ep01_004_0130\preview\CH_GumiFemale
 The preview will be generated and saved in the specified directory, matching the render settings and adhering to the current project filename.
 
