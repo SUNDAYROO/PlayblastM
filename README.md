@@ -11,17 +11,24 @@ matching render settings, and managing file overwrites, making it efficient and 
 Camera Naming Convention: Automatically names the camera following the format Projectname_Shotnumber_Startframe_Endframe.
 
 Storage Path Specification: Ensures previews are saved in the specified directory.
+
 Render Settings Match: Generates preview scales matching the render settings.
+
 Selection Clearing: Clears any selected objects before generating previews.
+
 Filename Adherence: Generates previews following the current project filename.
+
 File Overwrite Management: Overwrites files with the same name to maintain consistency.
+
 Planned Additions: Switch from the selected camera to the perspective camera.
 
 ## Installation
 Clone the repository:
 git clone https://github.com/yourusername/automated-preview-generator.git
+
 Navigate to the project directory:
 cd automated-preview-generator
+
 Install the required dependencies:
 pip install -r requirements.txt
 
