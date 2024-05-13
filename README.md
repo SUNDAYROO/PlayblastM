@@ -35,9 +35,8 @@ matching render settings and managing file overwrites, making it efficient and u
 ## Usage
 1. Open your project in Maya.
 2. Ensure your project filename follows the specified naming convention: `Projectname_Shotnumber_Startframe_Endframe`.
-3. Run the script to generate the preview:
-4. python generate_preview.py
-5. Specify the storage path as required. For example:
+3. Run the script to generate the preview:`python PlayblastM.py`
+4. Specify the storage path as required. For example:
 `G:\Praxis_Work_SRO\Publish\Shots\S01\cfx\ep01\SRO_ep01_004_0130\preview\CH_GumiFemale`
-6. The preview will be generated and saved in the specified directory, matching the render settings and adhering to the current project filename.
+5. The preview will be generated and saved in the specified directory, matching the render settings and adhering to the current project filename.
 
