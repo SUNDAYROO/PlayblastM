@@ -1,21 +1,40 @@
-# Project Title
+Project Title: Automated Preview Generator
+Description
+This project provides an automated tool for generating previews of your projects in Maya, ensuring consistent camera naming conventions and storage paths. It simplifies the preview generation process by clearing selections, matching render settings, and managing file overwrites, making it efficient and user-friendly for CFX artists.
 
-## Description
-Brief description of what the project does and its purpose.
-
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+Features
+Camera Naming Convention: Automatically names the camera following the format Projectname_Shotnumber_Startframe_Endframe.
+Storage Path Specification: Ensures previews are saved in the specified directory.
+Render Settings Match: Generates preview scales matching the render settings.
+Selection Clearing: Clears any selected objects before generating previews.
+Filename Adherence: Generates previews following the current project filename.
+File Overwrite Management: Overwrites files with the same name to maintain consistency.
+Planned Additions: Switch from the selected camera to the perspective camera.
 
 ## Installation
-Step-by-step instructions on how to install and set up the project.
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/yourusername/automated-preview-generator.git
+Navigate to the project directory:
+bash
+Copy code
+cd automated-preview-generator
+Install the required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
 
 ## Usage
-Examples and instructions on how to use the project.
+Open your project in Maya.
+Ensure your project filename follows the specified naming convention: Projectname_Shotnumber_Startframe_Endframe.
+Run the script to generate the preview:
+bash
+Copy code
+python generate_preview.py
+Specify the storage path as required. For example:
+bash
+Copy code
+G:\Praxis_Work_SRO\Publish\Shots\S01\cfx\ep01\SRO_ep01_004_0130\preview\CH_GumiFemale
+The preview will be generated and saved in the specified directory, matching the render settings and adhering to the current project filename.
 
-## Contributing
-Guidelines for contributing to the project.
-
-## License
-This project is licensed under the MIT License.
