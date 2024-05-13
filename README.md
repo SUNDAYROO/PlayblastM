@@ -1,4 +1,5 @@
-Automated Preview Generator
+# Automated Preview Generator
+
 Description
 This project provides an automated tool for generating previews of your projects in Maya, ensuring consistent camera naming conventions and storage paths. It simplifies the preview generation process by clearing selections, matching render settings, and managing file overwrites, making it efficient and user-friendly for CFX artists.
 
