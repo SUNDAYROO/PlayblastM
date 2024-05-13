@@ -24,7 +24,7 @@ Planned Additions: Switch from the selected camera to the perspective camera.
 
 ## Installation
 Clone the repository:
-git clone https://github.com/sundayroo/automated-preview-generator.git
+git clone https://github.com/SUNDAYROO/PlayblastM.git
 
 Navigate to the project directory:
 cd automated-preview-generator
