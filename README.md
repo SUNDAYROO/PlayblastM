@@ -24,13 +24,13 @@ Planned Additions: Switch from the selected camera to the perspective camera.
 
 ## Installation
 Clone the repository:
-git clone https://github.com/SUNDAYROO/PlayblastM.git
+`git clone https://github.com/SUNDAYROO/PlayblastM.git`
 
 Navigate to the project directory:
-cd automated-preview-generator
+`cd automated-preview-generator`
 
 Install the required dependencies:
-pip install -r requirements.txt
+`pip install -r README.txt`
 
 ## Usage
 1. Open your project in Maya.
