@@ -2,10 +2,12 @@
 
 ## Description
 
-This project provides an automated tool for generating previews of your projects in Maya, ensuring consistent camera naming conventions and storage paths. It simplifies the preview generation process by clearing selections, matching render settings, and managing file overwrites, making it efficient and user-friendly for CFX artists.
+This project provides an automated tool for generating previews of your projects in Maya, ensuring consistent camera naming conventions and storage paths. 
+It simplifies the preview generation process by clearing selections, matching render settings, and managing file overwrites, making it efficient and user-friendly for CFX artists.
 
 ## Features
 Camera Naming Convention: Automatically names the camera following the format Projectname_Shotnumber_Startframe_Endframe.
+
 Storage Path Specification: Ensures previews are saved in the specified directory.
 Render Settings Match: Generates preview scales matching the render settings.
 Selection Clearing: Clears any selected objects before generating previews.
