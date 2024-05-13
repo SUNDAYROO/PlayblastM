@@ -33,6 +33,7 @@ matching render settings and managing file overwrites, making it efficient and u
 `pip install -r README.txt`
 
 ## Usage
+[Video Guide](https://youtu.be/qHQzeoWO7Oo)
 1. Open your project in Maya.
 2. Ensure your project filename follows the specified naming convention: `Projectname_Shotnumber_Startframe_Endframe`.
 3. Run the script to generate the preview:`python PlayblastM.py`
